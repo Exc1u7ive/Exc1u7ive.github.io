@@ -1,0 +1,144 @@
+html {
+
+    background-image: url("images/blackbg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1 {
+    color: coral;
+}
+.hello {
+    color: orange;
+}
+body {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+    line-height: 30px;
+}
+section {
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #aaaaaa;
+    color: navajowhite;
+    font-size: 20px;
+    background-color: ;
+}
+.avatar {
+    border-radius: 50%;
+    horiz-align: bottom;
+    vertical-align: top;
+}
+nav {
+    font-size: 20px;
+    text-align: center;
+    word-spacing: normal;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    position: relative;
+    padding-left: 1em;
+    font: 16px/2em sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+
+li::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 0.5em;
+    width: 0.5em;
+    transform: translate(-200%, -50%);
+    border-radius: 50%;
+    background-color: black;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 0;
+}
+
+.social-icons > li {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+.social-icons a {
+    position: relative;
+    background-color: white;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: background-color .3s ease-in-out;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: .25rem;
+}
+
+.social-icons a:hover {
+    background-color: whitesmoke;
+}
+
+.social-icons a::before {
+    content: "";
+    position: absolute;
+    width: 1.2rem;
+    height: 1.2rem;
+    left: .65rem;
+    top: .65rem;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.social-icons .social-icon-instagram::before {
+    background-image: url("images/free-icon-instagram.png");
+}
+
+.social-icons .social-icon-github::before {
+    background-image: url("images/free-icon-github.png");
+}
+
+.social-icons .social-icon-vk::before {
+    background-image: url("images/free-icon-vk.png");
+}
+
+.social-icons .social-icon-telegram::before {
+    background-image: url("images/free-icon-telegram.png");
+}
+
+.social-icons .social-icon-linkedin::before {
+    background-image: url("images/free-icon-linkedin.png");
+}
+
+aside {
+    color: black;
+}
+.resume {
+    color: cornsilk;
+}
+footer {
+    color: whitesmoke;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #aaaaaa;
+}
